@@ -193,3 +193,16 @@ The database is MySQL. Tables are auto-generated using JPA annotations:
 
 ---
 
+## Deployment Status
+
+✅ The application has been fully developed and successfully tested in the local development environment, using a local MySQL database.
+
+🚧 Deployment to Render (cloud platform) is currently in progress. The backend application is being configured to connect to a cloud-based database (PostgreSQL on Render) instead of the original local MySQL instance.
+
+Expected steps:
+- Cloud PostgreSQL instance setup
+- Application properties updated for Render environment
+- Successful deployment and verification via public API endpoint
+
+This ensures the application is fully cloud-deployable and production-ready.
+
