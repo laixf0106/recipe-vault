@@ -1,0 +1,31 @@
+recipe-vault-backend/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── olive/
+│   │   │           └── recipevault/
+│   │   │               ├── controller/
+│   │   │               │   └── RecipeController.java
+│   │   │               ├── entity/
+│   │   │               │   ├── Ingredient.java
+│   │   │               │   └── Recipe.java
+│   │   │               │   └── Difficulty.java
+│   │   │               ├── dto/
+│   │   │               │   ├── RecipeRequest.java
+│   │   │               │   └── RecipeResponse.java
+│   │   │               ├── repository/
+│   │   │               │   ├── IngredientRepository.java
+│   │   │               │   └── RecipeRepository.java
+│   │   │               ├── service/
+│   │   │               │   ├── RecipeService.java
+│   │   │               │   └── impl/RecipeServiceImpl.java
+│   │   │               ├── exception/
+│   │   │               │   ├── GlobalExceptionHandler.java
+│   │   │               │   └── ResourceNotFoundException.java
+│   │   │               └── RecipeVaultApplication.java
+│   │   ├── resources/
+│   │   │   ├── application.properties
+│   │   │   └── static/
+├── pom.xml
+└── README.txt

@@ -1,0 +1,41 @@
+{
+  "info": {
+    "_postman_id": "12345678-1234-1234-1234-1234567890ab",
+    "name": "RecipeVault API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get All Recipes",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/recipes",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["recipes"]
+        }
+      }
+    },
+    {
+      "name": "Create New Recipe",
+      "request": {
+        "method": "POST",
+        "header": [{"key": "Content-Type", "value": "application/json"}],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"title\": \"Test Recipe\",\n  \"difficulty\": \"Easy\",\n  \"creatorName\": \"Tester\",\n  \"instructions\": \"Mix and serve\",\n  \"ingredients\": [\"Water\", \"Salt\"]\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/recipes",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["recipes"]
+        }
+      }
+    }
+  ]
+}

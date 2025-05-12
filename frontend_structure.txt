@@ -1,0 +1,18 @@
+recipe-vault-frontend/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Dashboard.vue
+│   │   ├── CreateRecipe.vue
+│   │   ├── EditRecipe.vue
+│   │   └── RecipeDetail.vue
+│   ├── store/
+│   │   └── recipeStore.ts
+│   ├── App.vue
+│   ├── main.ts
+│   └── router.ts
+├── package.json
+├── vite.config.ts
+└── README.md
